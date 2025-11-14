@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CONTAINER FULL WIDTH */
+.container {
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+
+/* HEADING FULL WIDTH */
+.container .heading {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.container .heading h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e84393;
+}
+
+.container .heading h3 span {
+    font-weight: 600;
+    color: #e84393;
+}
+
+/* VIDEO PALING ATAS */
+.top-video {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.top-video video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* BOX FULL WIDTH */
+.container .box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2%;
+}
+
+/* COLUMN */
+.container .box .dream {
+    width: 32.5%;
+}
+
+/* GAMBAR */
+.container .box .dream img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* VIDEO */
+.container .box .dream video {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
